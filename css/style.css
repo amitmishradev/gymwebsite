@@ -1,0 +1,99 @@
+
+    /* css reset */
+    * {
+
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        background: url('../img/abs.jpg');
+        color: white;
+        background-size: cover;
+        background-repeat:no-repeat ;
+        height: 100vh;
+    }
+    .left{
+            display: inline-block;
+            /*border: 2px solid red;*/
+            position: absolute;
+            left: 34px;
+            top: 20px;
+    }
+
+    .mid{
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        /*border: 2px solid green;*/
+    }
+
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        
+        display: inline-block;
+        /*border: 2px solid yellow;*/
+    }
+    /*.navbar{
+        display: inline-block;
+    }*/
+    .navbar li{
+        display: inline-block;
+        font-size: 19px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color: grey;
+    }
+    .left img{
+        width: 84px;
+    }
+    .left div{
+        text-align: center;
+    }
+    .btn{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 3px 4px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: grey;
+    }
+    .container{
+        /*display: inline-block;*/
+        border: 2px solid grey;
+        margin: 113px 500px;
+        padding: 24px 20px;
+        width: 30%;
+        border-radius: 14px;
+        
+        
+    }
+    .form-group input{
+        padding: 3px;
+    margin: 7px 60px;
+    text-align: center;
+    width: 65%;
+    border-radius: 11px;
+    display: block;
+    border: 2px solid black;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        width: 23%;
+        display: block;
+        margin: auto;
+    }
